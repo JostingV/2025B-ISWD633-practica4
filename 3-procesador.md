@@ -10,7 +10,8 @@ Asignar núcleos de CPU específicos:
 ```
 
 **¿Como saber el numero de procesadores virtuales que tiene una máquina?**
-## COMPLETAR
+
+Para máquinas virtuales específicas en la nube o en plataformas de virtualización, consulta la configuración de la máquina en el panel de control de la plataforma o utiliza comandos específicos como Get-VMProcessor en PowerShell
 
 ## Ejemplos
 _Puedes copiar y ejecutar directamente cada uno de los comandos_

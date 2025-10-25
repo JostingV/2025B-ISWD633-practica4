@@ -1,3 +1,3 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+A pesar de las grandes dificultades que encontré en las partes 5 (Dockerfile) y 6 (Políticas de Reinicio), logre entender a finalidad de cada uno. Comprendí que Docker es mas que solo aislamiento, pues tambien es fundamental para la gestión de recursos y la estabilidad operativa. Entendu el --memory y --cpus para garantizar que los contenedores no saturen el host, y el uso de Healthchecks para monitorizar el servicio real y no solo el proceso. Además, la práctica me enseñó a optimizar la construcción de imágenes al entender cómo el mecanismo de caché por capas se invalida con cada instrucción.
+
+Tambien es importante la configuración de políticas de reinicio ya que es vital para la continuidad del servicio, como asegurar que un servidor Apache no se detenga usando CMD ["apachectl", "-D", "FOREGROUND"].
